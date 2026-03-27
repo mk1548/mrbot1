@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 
-st.title("Mr.Boy")
+st.title("Mr.Bot")
 
 # 1. Access the secret key (This looks for a hidden variable you'll set in Step 2)
 # We use a try/except so the app doesn't crash if the key is missing
