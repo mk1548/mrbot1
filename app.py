@@ -9,7 +9,7 @@ api_key = st.sidebar.text_input("Enter Groq API Key", type="password")
 
 if api_key:
     # Connect to the AI Brain
-    llm = ChatGroq(groq_api_key=api_key, model_name="llama3-8b-8192")
+    llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.1-8b-instant")
 
     # Initialize Chat History
     if "messages" not in st.session_state:
