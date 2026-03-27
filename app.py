@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, AIMessage
 
 # --- 1. PAGE CONFIG (The Browser Tab Look) ---
-st.set_page_config(page_title="Mr.Bot", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="Mr.Bot (Prototype1)", page_icon="🤖", layout="centered")
 
 # --- 2. THE HEADER & LOGO ---
 # You can replace the emoji with a URL to a hosted image/logo
