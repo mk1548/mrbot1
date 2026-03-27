@@ -3,11 +3,11 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, AIMessage
 
 # --- 1. PAGE CONFIG (The Browser Tab Look) ---
-st.set_page_config(page_title="Mr.Bot (Prototype1)", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="Mr.Bot(Prototype1)", page_icon="🤖", layout="centered")
 
 # --- 2. THE HEADER & LOGO ---
 # You can replace the emoji with a URL to a hosted image/logo
-st.markdown("<h1 style='text-align: center;'>Mr.Bot</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Mr.Bot(Prototype1)</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: gray;'>Powered by Llama 3.1, Idea by Mahant K.</p>", unsafe_allow_html=True)
 st.divider()
 
